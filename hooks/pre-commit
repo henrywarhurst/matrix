@@ -1,0 +1,7 @@
+# ----------------------------------------------------
+# git pre-commit hook
+# ----------------------------------------------------
+
+# Auto-format code
+GIT_ROOT_DIR_COMMAND="$(git rev-parse --show-toplevel)"
+$GIT_ROOT_DIR_COMMAND/scripts/format-code.sh
