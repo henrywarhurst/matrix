@@ -9,5 +9,7 @@ int main() {
 
   std::cout << myMatrix.getNCols() << std::endl;
 
+  myMatrix.print();
+
   return 0;
 }
