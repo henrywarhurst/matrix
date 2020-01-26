@@ -1,4 +1,5 @@
 #include "core/Matrix.hpp"
+#include "core/MatrixFileReader.hpp"
 #include <cstdlib>
 #include <iostream>
 
@@ -10,6 +11,8 @@ int main() {
   std::cout << myMatrix.getNCols() << std::endl;
 
   myMatrix.print();
+
+  MatrixFileReader<int> myMatrixFileReader("example.csv");
 
   return 0;
 }

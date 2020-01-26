@@ -1,0 +1,3 @@
+/Users/hwarhurst/projects/matrix/libs/CMakeFiles/rebuild_cache.dir
+/Users/hwarhurst/projects/matrix/libs/CMakeFiles/edit_cache.dir
+/Users/hwarhurst/projects/matrix/libs/CMakeFiles/matrix.dir

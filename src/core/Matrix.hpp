@@ -22,6 +22,10 @@ public:
     }
   }
 
+  void setElementAt(int row, int col, T newValue) {
+    _matrix[row][col] = newValue;
+  }
+
   int getNRows() { return _nRows; }
   int getNCols() { return _nCols; }
 
